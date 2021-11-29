@@ -4,8 +4,7 @@
     --desaturated-red: hsl(0, 36%, 70%);
     --soft-red: hsl(0, 93%, 68%);
     --dark-red: hsl(0, 6%, 24%);
-    --gradients-1: linear, 135deg, from hsl(0, 0%, 100%), to hsl(0, 100%, 98%);
-    --grandients-2: linear, 135deg, from hsl(0, 80%, 86%), to hsl(0, 74%, 74%);
+    --bg-grandient-btn: linear-gradient(135deg, rgba(248,191,191,1) 0%, rgba(238,140,140,1) 100%);
 }
 
 html {
@@ -26,3 +25,154 @@ body {
     margin: 0;
     overflow-x: hidden;
 }
+
+main {
+    min-height: 100vh;
+}
+
+header {
+    padding: 2rem;
+}
+
+.img-header {
+    width: 35%;
+}
+
+.hero img {
+    width: 100%;
+}
+
+.text {
+    display: flex;
+    flex-direction: column;
+    min-height: 58vh;
+    margin-top: -5px;
+    padding: 2rem;
+    padding-top: 1.5rem;
+    text-align: center;
+    background-color: hsl(0, 100%, 98%);
+}
+
+.title {
+    font-size: 1.7rem;
+    letter-spacing: .6rem;
+    color: var(--dark-red);
+}
+
+.title h1 {
+    margin-bottom: 0;
+}
+
+.title span {
+    font-weight: 300;
+    color: var(--desaturated-red);
+}
+
+.description p {
+    font-size: .85rem;
+    font-weight: 700;
+    line-height: 1.5;
+    color: var(--desaturated-red);
+    margin-top: 1rem;
+    flex-grow: 1;
+}
+
+.input {
+    margin-top: 1rem;
+}
+
+input {
+    position: relative; 
+    width: 100%;
+    padding: 1rem;
+    outline: none;
+    border: 1px solid #ce97977c;
+    background-color: hsl(0, 100%, 98%);
+    color: var(--dark-red);
+    font-weight: 700;
+    border-radius: 30px;
+    -webkit-border-radius: 30px;
+    -moz-border-radius: 30px;
+    -ms-border-radius: 30px;
+    -o-border-radius: 30px;
+}
+
+input::placeholder {
+    font-family: var(--font-family);
+    color: #ce97977c;
+}
+
+.icon-error-input {
+    position: absolute;
+    margin-left: -5.5rem;
+    margin-top: .75rem;
+}
+
+.text-error-input {
+    font-size: 12px;
+    color: var(--soft-red);
+    text-align: start;
+    padding-left: 1rem;
+}
+
+.none {
+    display: none;
+}
+
+.btn-input {
+    position: absolute;
+    height: 49px;
+    margin: 0;
+    margin-left: -3.5rem;
+    padding: .9rem 1.7rem;
+    background: var(--bg-grandient-btn);
+    box-shadow: rgba(0, 0, 0, 0.15) 0px 15px 25px, rgba(0, 0, 0, 0.05) 0px 5px 10px;
+    border: none;
+    border-radius: 30px;
+    -webkit-border-radius: 30px;
+    -moz-border-radius: 30px;
+    -ms-border-radius: 30px;
+    -o-border-radius: 30px;
+}
+
+.btn-input:focus {
+    background: rgba(248,191,191,1);
+    box-shadow: rgba(248,191,191,0.5) 0px 15px 25px, rgba(0, 0, 0, 0.05) 0px 5px 10px;
+}
+
+/* Mediaqueries */
+
+/* @media (min-width: 576px) { 
+    
+    .text {
+        padding: 10%;
+        padding-top: 1.5rem;
+    }
+
+    .title {
+        font-size: 2rem;
+    }
+
+    .description p {
+        font-size: 1rem;
+    }
+    
+}
+
+@media (min-width: 768px) {
+    .hero img {
+        width: 100%;
+        height: 500px;
+        object-fit: cover;
+    }
+    
+    .title {
+        font-size: 2.7rem;
+    }
+
+    .description p {
+        font-size: 1.5rem;
+    }
+} */
+
+
