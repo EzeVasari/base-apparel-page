@@ -142,7 +142,7 @@ input::placeholder {
 
 /* Mediaqueries */
 
-/* @media (min-width: 576px) { 
+@media (min-width: 576px) { 
     
     .text {
         padding: 10%;
@@ -173,6 +173,17 @@ input::placeholder {
     .description p {
         font-size: 1.5rem;
     }
-} */
+
+    input {
+        width: 80%;
+        font-size: 1.2rem;
+    }
+
+    .btn-input {
+        height: 56px;
+        padding: .9rem 2rem;
+        
+    }
+}
 
 
