@@ -196,6 +196,10 @@ input::placeholder {
 }
 
 @media (min-width: 992px) {
+    header {
+        padding-left: 10%;
+    }
+    
     .img-header {
         width: 30%;
     }
@@ -209,19 +213,52 @@ input::placeholder {
         height: 100vh;
     }
 
+    .title h1 {
+        font-size: 3.5rem;
+        line-height: 3.5rem;
+    }
+
     .text {
         background: none;
         text-align: start;
     }
 
+    .description {
+        margin-top: 1rem;
+    }
+
+    .description p {
+        font-size: 1rem;
+    }
+
+    input {
+        width: 95%;
+    }
+
+    .btn-input {
+        margin-left: -4.5rem;
+    }
+
     .icon-error-input {
         margin-top: 1rem;
+        margin-left: -6.6rem;
     }
 
     .text-error-input {
         padding-left: 1rem;
     }
-
 }
+
+@media (min-width: 1366px) {
+    .title h1 {
+        font-size: 3.8rem;
+        line-height: 4rem;
+    }
+
+    input {
+        width: 95%;
+    }
+}
+
 
 
