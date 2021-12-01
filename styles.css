@@ -186,4 +186,26 @@ input::placeholder {
     }
 }
 
+@media (min-width: 992px) {
+    .img-header {
+        width: 30%;
+    }
+
+    main {
+        display: grid;
+        grid-template: 100px 1fr / 1fr 1fr;
+    }
+
+    .hero img {
+        height: 100vh;
+    }
+
+    .text {
+        background: none;
+        text-align: start;
+    }
+
+
+}
+
 
