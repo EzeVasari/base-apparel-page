@@ -184,6 +184,15 @@ input::placeholder {
         padding: .9rem 2rem;
         
     }
+
+    .icon-error-input {
+        margin-top: .9rem;
+    }
+
+    .text-error-input {
+        font-size: 1rem;
+        padding-left: 5rem;
+    }
 }
 
 @media (min-width: 992px) {
@@ -205,6 +214,13 @@ input::placeholder {
         text-align: start;
     }
 
+    .icon-error-input {
+        margin-top: 1rem;
+    }
+
+    .text-error-input {
+        padding-left: 1rem;
+    }
 
 }
 
