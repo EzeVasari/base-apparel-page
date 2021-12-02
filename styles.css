@@ -28,6 +28,9 @@ body {
 
 main {
     min-height: 100vh;
+    background-image: url(images/bg-pattern-desktop.svg);
+    background-repeat: repeat;
+    background-size: 60%;
 }
 
 header {
@@ -119,6 +122,10 @@ input::placeholder {
     display: none;
 }
 
+.border-error {
+    border: 2px solid var(--soft-red);
+}
+
 .btn-input {
     position: absolute;
     height: 49px;
@@ -197,6 +204,10 @@ input::placeholder {
 }
 
 @media (min-width: 992px) {
+    body { 
+        overflow: hidden;
+    }
+
     header {
         padding-left: 10%;
     }
@@ -236,6 +247,7 @@ input::placeholder {
     input {
         width: 95%;
         font-size: 1rem;
+        background-color: #fff;
     }
 
     .btn-input {
