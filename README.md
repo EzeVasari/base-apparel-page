@@ -10,13 +10,8 @@ This is a solution to the [Base Apparel coming soon page challenge on Frontend M
   - [Links](#links)
 - [My process](#my-process)
   - [Built with](#built-with)
-  - [What I learned](#what-i-learned)
-  - [Continued development](#continued-development)
   - [Useful resources](#useful-resources)
 - [Author](#author)
-- [Acknowledgments](#acknowledgments)
-
-**Note: Delete this note and update the table of contents based on what sections you keep.**
 
 ## Overview
 
@@ -32,13 +27,13 @@ Users should be able to:
 
 ### Screenshot
 
-![](./screenshot.jpg)
+![](images/screenshot.jpg)
 
 
 ### Links
 
-- Solution URL: [](https://your-solution-url.com)
-- Live Site URL: [](https://your-live-site-url.com)
+- Solution URL: [](https://www.frontendmentor.io/solutions/base-apparel-coming-soon-page-with-css-grid-JE-kKDHnn)
+- Live Site URL: [](https://ezevasari.github.io/base-apparel-page/)
 
 ## My process
 
@@ -48,13 +43,13 @@ Users should be able to:
 - CSS custom properties
 - Flexbox
 - Mobile-first workflow
+- CSS Grid
 ### Useful resources
 
-- [Example resource 1](https://www.example.com) - This helped me for XYZ reason. I really liked this pattern and will use it going forward.
-- [Example resource 2](https://www.example.com) - This is an amazing article which helped me finally understand XYZ. I'd recommend it to anyone still learning this concept.
+- [How to Detect Screen Resolution with JavaScript](https://www.tutorialrepublic.com/faq/how-to-detect-screen-resolution-with-javascript.php) - This helped me for change background image, according to size screen.
 
 ## Author
 
-- Website - [Add your name here](https://www.your-site.com)
-- Frontend Mentor - [@yourusername](https://www.frontendmentor.io/profile/yourusername)
-- Twitter - [@yourusername](https://www.twitter.com/yourusername)
+- LinkedIn - [LinkedIn](https://www.linkedin.com/in/ernesto-vasari-13b366185/)
+- Frontend Mentor - [@ezevasari](https://www.frontendmentor.io/profile/EzeVasari)
+- Twitter - [@ezevasari](https://www.twitter.com/ezevasari)
