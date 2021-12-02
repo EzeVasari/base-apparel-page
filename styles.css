@@ -125,6 +125,7 @@ input::placeholder {
     margin: 0;
     margin-left: -3.5rem;
     padding: .9rem 1.7rem;
+    cursor: pointer;
     background: var(--bg-grandient-btn);
     box-shadow: rgba(0, 0, 0, 0.15) 0px 15px 25px, rgba(0, 0, 0, 0.05) 0px 5px 10px;
     border: none;
@@ -206,7 +207,7 @@ input::placeholder {
 
     main {
         display: grid;
-        grid-template: 100px 1fr / 1fr 1fr;
+        grid-template: 100px 1fr / 1.5fr 1fr;
     }
 
     .hero img {
@@ -214,7 +215,7 @@ input::placeholder {
     }
 
     .title h1 {
-        font-size: 3.5rem;
+        font-size: 3rem;
         line-height: 3.5rem;
     }
 
@@ -228,11 +229,13 @@ input::placeholder {
     }
 
     .description p {
-        font-size: 1rem;
+        font-size: .9rem;
+        line-height: 1.7rem;
     }
 
     input {
         width: 95%;
+        font-size: 1rem;
     }
 
     .btn-input {
@@ -240,7 +243,7 @@ input::placeholder {
     }
 
     .icon-error-input {
-        margin-top: 1rem;
+        margin-top: .85rem;
         margin-left: -6.6rem;
     }
 
@@ -249,16 +252,64 @@ input::placeholder {
     }
 }
 
-@media (min-width: 1366px) {
+@media (min-width: 1200px) {
+    header {
+        margin-top: 2rem;
+        padding-left: 20%;
+    }
+    
+    .text {
+        padding: 20%;
+        padding-top: 1.5rem;
+        margin-top: 3rem;
+    }
+    
     .title h1 {
-        font-size: 3.8rem;
-        line-height: 4rem;
+        font-size: 3.5rem;
+        line-height: 3.5rem;
     }
 
     input {
         width: 95%;
     }
 }
+
+@media (min-width: 1440px) {
+
+    header {
+        padding-left: 24%;
+    }
+
+    .text {
+        padding: 24%;
+        padding-top: 1.5rem;
+        margin-top: 3.5rem;
+    }
+
+    .title h1 {
+        font-size: 5rem;
+        line-height: 5rem;
+    }
+
+    .btn-input {
+        padding: .9rem 2.5rem;
+        margin-left: -4rem;
+    }
+}
+
+@media (min-width: 1920px) {
+    header {
+        padding-left: 28%;
+    }
+
+    .text {
+        padding: 28%;
+        padding-top: 1.5rem;
+        margin-top: 6rem;
+    }
+}
+
+
 
 
 
